@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_air","order":12,"path":"objects/obj_air/obj_air.yy",},
+    {"name":"obj_camera","order":10,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_civie","order":6,"path":"objects/obj_civie/obj_civie.yy",},
+    {"name":"obj_controller","order":4,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_fire_child","order":8,"path":"objects/obj_fire_child/obj_fire_child.yy",},
+    {"name":"obj_fire_home","order":7,"path":"objects/obj_fire_home/obj_fire_home.yy",},
+    {"name":"obj_fire_par","order":9,"path":"objects/obj_fire_par/obj_fire_par.yy",},
+    {"name":"obj_sandtile","order":1,"path":"objects/obj_sandtile/obj_sandtile.yy",},
+    {"name":"obj_selector","order":3,"path":"objects/obj_selector/obj_selector.yy",},
+    {"name":"obj_water","order":11,"path":"objects/obj_water/obj_water.yy",},
+    {"name":"obj_watertile","order":2,"path":"objects/obj_watertile/obj_watertile.yy",},
+    {"name":"spr_bckgrd","order":6,"path":"sprites/spr_bckgrd/spr_bckgrd.yy",},
+    {"name":"spr_civie","order":3,"path":"sprites/spr_civie/spr_civie.yy",},
+    {"name":"spr_fire_spell","order":2,"path":"sprites/spr_fire_spell/spr_fire_spell.yy",},
+    {"name":"spr_target","order":1,"path":"sprites/spr_target/spr_target.yy",},
+    {"name":"spr_wave","order":4,"path":"sprites/spr_wave/spr_wave.yy",},
+    {"name":"spr_wind","order":5,"path":"sprites/spr_wind/spr_wind.yy",},
+  ],
+}
