@@ -4,31 +4,32 @@
 y=y+ydir*fear;
 x=x+xdir*fear;
 
-
-if (distance_to_object(obj_fire_par) <= 48) {
-    fear = 2;
-	if x<=obj_fire_par.x {
-		xdir = -0.5;
+if (place_meeting(x,y,obj_fire_par)) {
+	if liv>1 {
+		x = xprevious;
+		y = yprevious;
+		xdir*=-1;
+		ydir*=-1;
+		fear=2;
+		liv-=1;
+		alarm_set(1,180);
 	}
 	else {
-		xdir = 0.5;
-	}
-	if y<=obj_fire_par.y {
-		ydir = -0.5;
-	}
-	else {
-		ydir = 0.5;
-	}
-	alarm_set(0,150+irandom(150));
-	alarm_set(1,300);
-}
-if (place_meeting(x, y, obj_fire_par)) {
-	instance_destroy();
+		instance_destroy();
+		global.mana+=0.75;
+		}
 }
 if (place_meeting(x, y, obj_air)) {
 	xdir=5;
 	ydir=0;
 	alarm_set(0,60);
+}
+if (place_meeting(x, y, obj_watertile)) {
+	x = xprevious;
+	y = yprevious;
+	xdir*=-1;
+	ydir*=-1;
+	
 }
 
 if x>=1904||x<=0 {
